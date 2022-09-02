@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Juego del Ahorcado</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/espacioLetra.css">
+
+    </head>
+
+    <body>
+
+
+        <header>
+
+            <div class="logo-container">
+
+                <img src="Vector.png" alt="Logo Alura" class="Logo">
+
+            </div>
+
+        </header>
+
+        <main>
+            <input id="letra" name="peso" type="text">
+        <div class="dibujitos">
+            <canvas class="canvitas" width="900" height="400">
+        
+            </canvas>
+        </div>
+
+    
+
+    <div class="botoncitos">
+        <button class="botonesjuego nuevojuego">Nuevo Juego</button>
+        <button class="botonesjuego desistir" onclick="location.href='PantallaInicial.html'">Desistir</button>
+    
+    </div>
+        
+    <script src="js/botonAgregarpalabra.js"></script>
+    <script src="js/EscribirLetra.js"></script>
+    <script src="js/botonesNuevoyDesistir.js"></script>
+</main>
+
+    </body>
+
+</html>
